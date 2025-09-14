@@ -1,11 +1,6 @@
 {
-  "buildCommand": "npm run build",
-  "outputDirectory": ".next",
-  "framework": "nextjs",
-  "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": "/index.html"
-    }
-  ]
+  "buildCommand": "cd murat-hindicilik && npm run build",
+  "outputDirectory": "murat-hindicilik/.next",
+  "installCommand": "cd murat-hindicilik && npm install",
+  "framework": "nextjs"
 }
