@@ -4,7 +4,6 @@ import path from 'path';
 const nextConfig: NextConfig = {
   output: 'standalone',
   trailingSlash: true,
-  outputFileTracingRoot: path.join(__dirname, '../..'),
   images: {
     unoptimized: true,
   },
