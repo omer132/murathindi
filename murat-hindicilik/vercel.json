@@ -1,6 +1,0 @@
-{
-  "buildCommand": "cd murat-hindicilik && npm run build",
-  "outputDirectory": "murat-hindicilik/.next",
-  "installCommand": "cd murat-hindicilik && npm install",
-  "framework": "nextjs"
-}
